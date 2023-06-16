@@ -43,7 +43,7 @@ npm run start
 - There is two part for contributing on this project.
   1. Create a new skill
   2. Contribute to an existing skill
-- This project is using <b>Makrdown</b> to write content of this <b>Mastermosai</b> website
+- This project is using <b>Makrdown</b> to write content of this <b>Mastermosai</b> Website
 
 !!! note How to create a new skill - Go to the docs folder - Make a folder using following pattern of the existing folders (use: number-yourfoldername)
 !!! warning (e.x)= 03-DevOps-Developer
