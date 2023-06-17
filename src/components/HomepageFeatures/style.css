@@ -33,7 +33,7 @@
   font-weight: 500;
 }
 
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 600px) {
   .skills-container {
     margin: auto;
     margin-top: 20px;
@@ -43,12 +43,13 @@
     grid-template-rows: 1fr 1fr;
     grid-column-gap: 15px;
     grid-row-gap: 15px;
-    width: 79vw;
+    width: 85vw;
+    height: auto;
   }
   .skill {
     padding-top: 10px;
-    width: 400px;
-    height: auto;
+    width: 350px;
+    height: 100px;
     border-radius: 10px;
     background: var(--ifm-color-primary-dark);
     color: #fff;
@@ -57,5 +58,8 @@
     align-items: center;
     text-decoration: none;
     cursor: pointer;
+  }
+  .skill > p {
+    margin-left: 25px;
   }
 }
