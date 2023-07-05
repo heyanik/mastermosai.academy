@@ -1,14 +1,12 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+// const lightCodeTheme = require("prism-react-renderer/themes/github");
+// const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Mastermosai",
-  tagline:
-    "Mastermosai is a free open source community where people can learn new skills",
-  favicon: "img/favicon.ico",
+  tagline: "Empowering learning through an open and vibrant community.",
+  favicon: "img/favicon.svg",
 
   // Set the production url of your site here
   url: "https://your-docusaurus-test-site.com",
@@ -54,17 +52,9 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -74,8 +64,8 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    // /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    {
       // Replace with your project's social card
       navbar: {
         title: "Mastermosai",
@@ -89,12 +79,19 @@ const config = {
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Tutorial",
+            className: "header-tutorial-link",
           },
-          // { to: "/blog", label: "Blog", position: "left" },
+          // {
+          //   to: "/blog",
+          //   label: "Blog",
+          //   position: "left",
+          //   className: "header-blog-link",
+          // },
           {
             href: "https://github.com/heyanik/Mastermosai",
-            label: "GitHub",
             position: "right",
+            className: "header-github-link",
+            "aria-label": "GitHub",
           },
           {
             type: "localeDropdown",
@@ -103,7 +100,6 @@ const config = {
         ],
       },
       footer: {
-        style: "dark",
         links: [
           {
             title: "Docs",
@@ -112,42 +108,48 @@ const config = {
                 label: "Tutorial",
                 to: "/docs/intro",
               },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Discord",
-                href: "https://discord.gg/nMvXYkZX",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/twtmastermosai",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
               // {
               //   label: "Blog",
               //   to: "/blog",
               // },
+            ],
+          },
+          {
+            title: "Community",
+
+            items: [
+              {
+                label: "Discord",
+                to: "https://discord.gg/nMvXYkZX",
+              },
+              {
+                label: "Facebook",
+                to: "https://discord.gg/nMvXYkZX",
+              },
+              {
+                label: "Linkedin",
+                to: "https://discord.gg/nMvXYkZX",
+              },
+              {
+                label: "Twitter",
+                to: "https://twitter.com/twtmastermosai",
+              },
+            ],
+          },
+          {
+            title: "Contribute",
+            items: [
               {
                 label: "GitHub",
-                href: "https://github.com/heyanik/Mastermosai",
+                to: "https://github.com/heyanik/Mastermosai",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Mastermosai, Inc. Built with ♥️.`,
+
+        // copyright: `Copyright © ${new Date().getFullYear()} Mastermosai, Academy. Built with ♥️.`,
       },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
+    },
 };
 
 module.exports = config;

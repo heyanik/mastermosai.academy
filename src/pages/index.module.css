@@ -2,22 +2,79 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+.continer > img {
+  margin-top: 50px;
+}
 
+.tagline {
+  width: 900px;
+  margin: auto;
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  line-height: 60px;
+}
+.hero_tagline {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #6f7280;
+  line-height: 28px;
+}
+.buttons {
+  background: #fcfcfd;
+  width: 120px;
+  height: 45px;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.buttons:hover {
+  box-shadow: var(--box-shadow);
+}
+.text {
+  color: #000;
+  font-weight: 700;
+}
+
+.text:hover {
+  text-decoration: none;
+  color: #000;
+}
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  border-top: 1px solid #f3f4f6;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
   }
+  .tagline {
+    width: 600px;
+    margin: auto;
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--ifm-color-primary);
+    line-height: 40px;
+  }
 }
-
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media screen and (max-width: 600px) {
+  .tagline {
+    width: 300px;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--ifm-color-primary);
+    line-height: 35px;
+  }
 }

@@ -9,21 +9,21 @@ import Translate from "@docusaurus/Translate";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">
-          <Translate>{siteConfig.title}</Translate>
-        </h1>
-        <p className="hero__subtitle">
+    <header className={clsx("", styles.heroBanner)}>
+      <div className={styles.continer}>
+        <img src="img/hero_icon.png"></img>
+        <h1 className={styles.tagline}>
           <Translate>{siteConfig.tagline}</Translate>
+        </h1>
+        <p className={styles.hero_tagline}>
+          <Translate>
+            A free Open Source community where people can learn new things.
+          </Translate>
         </p>
         <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro"
-          >
+          <Link className={styles.text} to="/docs/intro">
             {" "}
-            Mastermosai's Tutorial
+            Learn more
           </Link>
         </div>
       </div>
