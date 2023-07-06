@@ -124,7 +124,7 @@ const config = {
               },
               {
                 label: "Facebook",
-                to: "https://discord.gg/nMvXYkZX",
+                to: "https://www.facebook.com/groups/mastermosai.academy/",
               },
               {
                 label: "Linkedin",

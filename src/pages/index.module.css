@@ -47,7 +47,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  border-top: 1px solid #f3f4f6;
+  /* border-top: 1px solid #f3f4f6; */
 }
 .buttons {
   display: flex;

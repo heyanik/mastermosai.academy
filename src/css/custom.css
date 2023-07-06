@@ -3,20 +3,18 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
-.navbar {
+/* .navbar {
   margin-left: 120px;
   margin-right: 120px;
-  background-color: inherit;
-  position: relative;
   box-shadow: none;
-}
+  border-bottom: 1px solid #f3f4f6;
+  border-right: 1px solid #f3f4f6;
+  border-left: 1px solid #f3f4f6;
+} */
 .footer {
   background-color: inherit;
   margin-top: -20px;
   margin-left: 240px;
-}
-.links {
-  color: red;
 }
 
 /* You can override the default Infima variables here. */

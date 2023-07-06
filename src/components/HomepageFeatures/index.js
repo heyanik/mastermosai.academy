@@ -11,31 +11,19 @@ const index = () => {
         <span className="line2"></span>
       </div>
       <div className="programing-language-container">
-        <Link
-          className="language"
-          to="/docs/Frontend-developer/Getting-started"
-        >
+        <Link className="language" to="/docs/Programming-Language/Python">
           <img src="img/python.png"></img>
           <h1>Python</h1>
         </Link>
-        <Link
-          className="language"
-          to="/docs/Frontend-developer/Getting-started"
-        >
+        <Link className="language" to="/docs/Programming-Language/C++">
           <img src="img/c++.png"></img>
           <h1>C++</h1>
         </Link>
-        <Link
-          className="language"
-          to="/docs/Frontend-developer/Getting-started"
-        >
+        <Link className="language" to="/docs/Programming-Language/Java">
           <img src="img/java.png"></img>
           <h1>Java</h1>
         </Link>
-        <Link
-          className="language"
-          to="/docs/Frontend-developer/Getting-started"
-        >
+        <Link className="language" to="/docs/Programming-Language/JavaScript">
           <img src="img/javascript.png"></img>
           <h1>JavaScript</h1>
         </Link>
@@ -46,16 +34,28 @@ const index = () => {
         <span className="line2-skill"></span>
       </div>
       <div className="style-skills-container">
-        <Link className="skill" to="/docs/Frontend-developer/Getting-started">
+        <Link
+          className="skill"
+          to="/docs/Skills/Frontend-development/Getting-started"
+        >
           <h1>Frontend</h1>
         </Link>
-        <Link className="skill" to="/docs/Backend-developer/Getting-started">
+        <Link
+          className="skill"
+          to="/docs/Skills/Backend-development/Getting-started"
+        >
           <h1>Backend</h1>
         </Link>
-        <Link className="skill" to="/docs/Frontend-developer/Getting-started">
+        <Link
+          className="skill"
+          to="/docs/Skills/Full-Stack-development/Getting-started"
+        >
           <h1>Full Stack</h1>
         </Link>
-        <Link className="skill" to="/docs/Backend-developer/Getting-started">
+        <Link
+          className="skill"
+          to="/docs/Skills/UI-UX-development/Getting-started"
+        >
           <h1>UI/UX Design</h1>
         </Link>
       </div>
