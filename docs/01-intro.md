@@ -7,16 +7,24 @@ sidebar_position: 1
 
 ## Learn New Skills, Expand Your Knowledge!
 
-Welcome to [Your Website Name], the ultimate destination for learning new skills and enhancing your expertise in various domains. Whether you're a beginner looking to explore exciting fields or a seasoned professional seeking to upgrade your skills, we have something for everyone.
+Welcome to Mastermosai, the ultimate destination for learning a new programming language, skills and enhancing your expertise in various domains. Whether you're a beginner looking to explore exciting fields or a seasoned professional seeking to upgrade your skills, we have something for everyone.
 
-At [Your Website Name], we believe in the power of continuous learning and personal growth. Our platform offers a wide range of comprehensive and practical courses, designed to help you master in-demand skills and stay ahead in today's fast-paced world.
+At Mastermosai, we believe in the power of continuous learning and personal growth. Our platform offers a wide range of comprehensive and practical courses, designed to help you master in-demand skills and stay ahead in today's fast-paced world.
 
 ## What You'll Learn
 
-- **Frontend Development**
-- **Backend Development**(coming soon!)
+- **Programming Languages**
+  - Python
+  - Java
+  - C++
+  - JavaScript
+- **Skills**
+  - Frontend
+  - Backend
+  - Full Stack
+  - UI/UX
 
-## Why Choose [Your Website Name]
+## Why Choose Mastermosai
 
 - **Comprehensive Courses**: Our courses are carefully crafted to provide a structured learning path, ensuring you acquire a deep understanding of the subject matter.
 
