@@ -88,7 +88,7 @@ const config = {
           //   className: "header-blog-link",
           // },
           {
-            href: "https://github.com/heyanik/Mastermosai",
+            href: "https://github.com/heyanik/mastermosai.academy",
             position: "right",
             className: "header-github-link",
             "aria-label": "GitHub",
@@ -141,7 +141,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                to: "https://github.com/heyanik/Mastermosai",
+                to: "https://github.com/heyanik/mastermosai.academy",
               },
             ],
           },
