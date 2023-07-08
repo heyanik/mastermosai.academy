@@ -21,7 +21,7 @@ Please consider sharing a post about [mastermosai.netlify.app](https://mastermos
 Clone the repository, install the dependencies and start the application
 
 ```bash
-git clone git@github.com:heyanik/mastermosai.git
+git clone https://github.com/heyanik/mastermosai.academy.git)
 npm install
 npm run start
 ```
@@ -31,16 +31,16 @@ npm run start
 ## Contribution
 
 - Add content to mastermosai
-- Add new skill
-- Suggest changes to existing website
+- Add new skill or programming language
+- Suggest changes to the existing website
 - Discuss ideas in issues
 - Spread the word
 
 > Start contributing this project follow the steps below
 
 - Fork this project
-- Make a local copy of this project on you system
-- There is two part for contributing on this project.
+- Make a local copy of this project on your system
+- There is two part to contributing to this project.
   1. Create a new skill
   2. Contribute to an existing skill
 - This project is using <b>Makrdown</b> to write content of this <b>Mastermosai</b> Website
