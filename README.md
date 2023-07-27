@@ -70,10 +70,9 @@ Please make sure the following is done when submitting a pull request:
 ---
 
 <div style="display:flex;">
-<div style="width:50px;height:50px; margin:10px;">
-<a  href="https://opencollective.com/Docusaurus/sponsor/0/website" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/150px-Logo_of_Twitter.svg.png"></a>
-</div>
-<div style=" width:50px;height:50px; margin:10px; ">
-<a href="https://discord.gg/nMvXYkZX" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/tr/thumb/c/c7/Discord_logo_new.svg/220px-Discord_logo_new.svg.png"></a>
-</div>
+
+<a  href="https://opencollective.com/Docusaurus/sponsor/0/website" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+
+<a href="https://discord.gg/nMvXYkZX" target="_blank"><i class="fa-brands fa-discord"></i></a>
+
 </div>
