@@ -69,10 +69,4 @@ Please make sure the following is done when submitting a pull request:
 
 ---
 
-<div style="display:flex;">
-
-<a  href="https://opencollective.com/Docusaurus/sponsor/0/website" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-
-<a href="https://discord.gg/nMvXYkZX" target="_blank"><i class="fa-brands fa-discord"></i></a>
-
-</div>
+<a href="https://discord.gg/nMvXYkZX" target="_blank">![](/static//img/discord.png)</a>
