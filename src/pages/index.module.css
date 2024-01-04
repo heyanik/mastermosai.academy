@@ -2,6 +2,15 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+.heroBanner {
+  background: var(--ifm-color-community);
+  border-bottom: 1.5px solid var(--ifm-color-card-border);
+}
+
+.continer {
+  height: 450px;
+}
+
 .continer > img {
   margin-top: 50px;
 }

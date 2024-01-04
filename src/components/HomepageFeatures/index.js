@@ -5,11 +5,8 @@ import Translate, { translate } from "@docusaurus/Translate";
 const index = () => {
   return (
     <>
-      <div className="style-programing-language">
-        <span className="line1"></span>
-        <p>Programing Languages</p>
-        <span className="line2"></span>
-      </div>
+      <div className="lm-div"></div>
+
       <div className="programing-language-container">
         <Link className="language" to="/docs/Programming-Language/Python">
           <img src="img/python.png"></img>
@@ -27,38 +24,12 @@ const index = () => {
           <img src="img/javascript.png"></img>
           <h1>JavaScript</h1>
         </Link>
-      </div>
-      <div className="style-skills">
-        <span className="line1-skill"></span>
-        <p>Skills</p>
-        <span className="line2-skill"></span>
-      </div>
-      <div className="style-skills-container">
-        <Link
-          className="skill"
-          to="/docs/Skills/Frontend-development/Getting-started"
-        >
-          <h1>Frontend</h1>
-        </Link>
-        <Link
-          className="skill"
-          to="/docs/Skills/Backend-development/Getting-started"
-        >
-          <h1>Backend</h1>
-        </Link>
-        <Link
-          className="skill"
-          to="/docs/Skills/Full-Stack-development/Getting-started"
-        >
-          <h1>Full Stack</h1>
-        </Link>
-        <Link
-          className="skill"
-          to="/docs/Skills/UI-UX-development/Getting-started"
-        >
-          <h1>UI/UX Design</h1>
+        <Link className="language" to="/docs/Programming-Language/JavaScript">
+          <img src="img/javascript.png"></img>
+          <h1>JavaScript</h1>
         </Link>
       </div>
+
       <div className="style-community-tab">
         <h1>Community</h1>
         <p>

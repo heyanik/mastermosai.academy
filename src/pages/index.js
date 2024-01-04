@@ -9,7 +9,7 @@ import Translate from "@docusaurus/Translate";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx("", styles.heroBanner)}>
+    <header className={clsx("header-container", styles.heroBanner)}>
       <div className={styles.continer}>
         <img src="img/hero_icon.png"></img>
         <h1 className={styles.tagline}>
@@ -20,12 +20,12 @@ function HomepageHeader() {
             A free Open Source community where people can learn new things.
           </Translate>
         </p>
-        <div className={styles.buttons}>
+        {/* <div className={styles.buttons}>
           <Link className={styles.text} to="/docs/intro">
             {" "}
             Learn more
           </Link>
-        </div>
+        </div> */}
       </div>
     </header>
   );
@@ -36,7 +36,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="Open source learning plateform in Bangladesh"
     >
       <HomepageHeader />
       <main>
