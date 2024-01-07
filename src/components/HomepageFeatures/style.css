@@ -2,11 +2,22 @@
   width: 400px;
   height: 300px;
   border-radius: 10px;
-  background: var(--ifm-color-background);
+  background: var(--ifm-color-card-linner);
   border: 1px solid var(--ifm-color-card-border);
   margin: 0 auto;
   position: relative;
   margin-top: -150px;
+}
+.lm-div > img {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  filter: grayscale(100%);
+  object-fit: cover;
+  transition: all 0.7s ease;
+}
+.lm-div > img:hover {
+  filter: grayscale(0);
 }
 
 .programing-language-container {
@@ -28,18 +39,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   cursor: pointer;
   border: 1px solid var(--ifm-color-card-border);
   transition: all 0.7s ease;
 }
 .language > h1 {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
 }
-.language > img {
-  width: 25px;
-  height: 25px;
-  margin-bottom: 15px;
+.language > .icon {
+  font-size: 50px;
 }
 .language:hover {
   border: 1px solid var(--ifm-color-card-border-hover);
@@ -52,6 +62,10 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: 50px;
+  background: var(--ifm-color-community);
+  border-top: 1px solid var(--ifm-color-card-border);
+  border-bottom: 1px solid var(--ifm-color-card-border);
 }
 .style-community-tab > h1 {
   font-size: 48px;

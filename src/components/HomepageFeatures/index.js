@@ -2,31 +2,54 @@ import React from "react";
 import Link from "@docusaurus/Link";
 import "./style.css";
 import Translate, { translate } from "@docusaurus/Translate";
+import { Icon } from "@iconify/react";
 const index = () => {
   return (
     <>
-      <div className="lm-div"></div>
+      <div className="lm-div">
+        <img src="img/a.jpeg" />
+      </div>
 
       <div className="programing-language-container">
         <Link className="language" to="/docs/Programming-Language/Python">
-          <img src="img/python.png"></img>
-          <h1>Python</h1>
+          <Icon icon="fluent-emoji-flat:keycap-10" className="icon" />
+          <h1>Standerd</h1>
         </Link>
         <Link className="language" to="/docs/Programming-Language/C++">
-          <img src="img/c++.png"></img>
-          <h1>C++</h1>
+          <Icon icon="fluent-emoji-flat:keycap-9" className="icon" />
+          <h1>Standerd</h1>
         </Link>
         <Link className="language" to="/docs/Programming-Language/Java">
-          <img src="img/java.png"></img>
-          <h1>Java</h1>
+          <Icon icon="fluent-emoji-flat:keycap-8" className="icon" />
+          <h1>Standerd</h1>
         </Link>
         <Link className="language" to="/docs/Programming-Language/JavaScript">
-          <img src="img/javascript.png"></img>
-          <h1>JavaScript</h1>
+          <Icon icon="fluent-emoji-flat:keycap-7" className="icon" />
+          <h1>Standerd</h1>
         </Link>
         <Link className="language" to="/docs/Programming-Language/JavaScript">
-          <img src="img/javascript.png"></img>
-          <h1>JavaScript</h1>
+          <Icon icon="fluent-emoji-flat:keycap-6" className="icon" />
+          <h1>Standerd</h1>
+        </Link>
+        <Link className="language" to="/docs/Programming-Language/JavaScript">
+          <Icon icon="fluent-emoji-flat:keycap-5" className="icon" />
+          <h1>Standerd</h1>
+        </Link>
+        <Link className="language" to="/docs/Programming-Language/JavaScript">
+          <Icon icon="fluent-emoji-flat:keycap-4" className="icon" />
+          <h1>Standerd</h1>
+        </Link>
+        <Link className="language" to="/docs/Programming-Language/JavaScript">
+          <Icon icon="fluent-emoji-flat:keycap-3" className="icon" />
+          <h1>Standerd</h1>
+        </Link>
+        <Link className="language" to="/docs/Programming-Language/JavaScript">
+          <Icon icon="fluent-emoji-flat:keycap-2" className="icon" />
+          <h1>Standerd</h1>
+        </Link>
+        <Link className="language" to="/docs/Programming-Language/JavaScript">
+          <Icon icon="fluent-emoji-flat:keycap-1" className="icon" />
+          <h1>Standerd</h1>
         </Link>
       </div>
 
