@@ -11,43 +11,43 @@ const index = () => {
       </div>
 
       <div className="programing-language-container">
-        <Link className="language" to="/docs/Programming-Language/Python">
+        <Link className="language" to="/docs/category/class-10">
           <Icon icon="fluent-emoji-flat:keycap-10" className="icon" />
           <h1>Standerd</h1>
         </Link>
-        <Link className="language" to="/docs/Programming-Language/C++">
+        <Link className="language" to="/docs/category/class-9">
           <Icon icon="fluent-emoji-flat:keycap-9" className="icon" />
           <h1>Standerd</h1>
         </Link>
-        <Link className="language" to="/docs/Programming-Language/Java">
+        <Link className="language" to="/docs/category/class-8">
           <Icon icon="fluent-emoji-flat:keycap-8" className="icon" />
           <h1>Standerd</h1>
         </Link>
-        <Link className="language" to="/docs/Programming-Language/JavaScript">
+        <Link className="language" to="/docs/category/class-7">
           <Icon icon="fluent-emoji-flat:keycap-7" className="icon" />
           <h1>Standerd</h1>
         </Link>
-        <Link className="language" to="/docs/Programming-Language/JavaScript">
+        <Link className="language" to="/docs/category/class-6">
           <Icon icon="fluent-emoji-flat:keycap-6" className="icon" />
           <h1>Standerd</h1>
         </Link>
-        <Link className="language" to="/docs/Programming-Language/JavaScript">
+        <Link className="language" to="/docs/category/class-5">
           <Icon icon="fluent-emoji-flat:keycap-5" className="icon" />
           <h1>Standerd</h1>
         </Link>
-        <Link className="language" to="/docs/Programming-Language/JavaScript">
+        <Link className="language" to="/docs/category/class-4">
           <Icon icon="fluent-emoji-flat:keycap-4" className="icon" />
           <h1>Standerd</h1>
         </Link>
-        <Link className="language" to="/docs/Programming-Language/JavaScript">
+        <Link className="language" to="/docs/category/class-3">
           <Icon icon="fluent-emoji-flat:keycap-3" className="icon" />
           <h1>Standerd</h1>
         </Link>
-        <Link className="language" to="/docs/Programming-Language/JavaScript">
+        <Link className="language" to="/docs/category/class-2">
           <Icon icon="fluent-emoji-flat:keycap-2" className="icon" />
           <h1>Standerd</h1>
         </Link>
-        <Link className="language" to="/docs/Programming-Language/JavaScript">
+        <Link className="language" to="/docs/category/class-1">
           <Icon icon="fluent-emoji-flat:keycap-1" className="icon" />
           <h1>Standerd</h1>
         </Link>
